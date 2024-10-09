@@ -50,9 +50,8 @@ const StockCard = () => {
           <Card
             sx={{
               minWidth: 300,
-            //   height: "400px",
               margin: "15px",
-            //   backgroundColor: "var(--primary-grey)",
+              backgroundColor: "var(--primary-grey)",
             }}
           >
             <CardContent
@@ -64,12 +63,6 @@ const StockCard = () => {
               }}
             >
               <Charts />
-              {/* <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                                Stock Value
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Stock Description
-                            </Typography> */}
             </CardContent>
 
             <CardActions
